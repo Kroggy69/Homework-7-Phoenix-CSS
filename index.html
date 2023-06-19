@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Homework-7 . CSS</title>
+    <link rel="icon" href="Image/logo.png" type="image/gif/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9515c21077.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- /////// Navbar //////// -->
+    <header>
+        <nav>
+
+            <!-- ////// Brand ////// -->
+            <a class="brand" href="#">
+                <img src="Image/logo.png" alt="">
+                <span>phoenix</span>
+            </a>
+
+            <!-- //// Nav Menu //// -->
+            <div class="navbar-menu">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-chart-pie"></i> Home</a>
+
+                        <!-- ///// Home Dropdown ///// -->
+                        <div class="dropdown">
+                            <div class="transparent-bg">
+                                <div class="triangle"></div>
+                            </div>
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> E commerce</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-regular fa-clipboard"></i> Project management</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> CRM</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-share-nodes"></i> Social feed</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-cube"></i> Apps</a>
+                        
+                        <!-- //// App DropDown //// -->
+                        <div class="dropdown">
+                            <div class="transparent-bg">
+                                <div class="triangle"></div>
+                            </div>
+
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i> E commerce <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Admin <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#"> Add product</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customers</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customer details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Orders</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Refund</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Customer <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Homepage</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Product details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products filter</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Cart</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Checkout</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Shipping info</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Profile</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Favourite stores</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Wishlist</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order tracking</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Invoice</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown-child-relative">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-phone"></i> CRM <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Analytics
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deals
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deal details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Leads
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lead details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Add contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-clipboard"></i> Project management <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-message"></i> Chat
+                                    </a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-envelope"></i> Email <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-bookmark"></i> Events <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create an event
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Event detail
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-brands fa-trello"></i> Kanban <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kaban
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Creat Boards
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Boards
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-share-nodes"></i> Social <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Profile
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Settings
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-calendar"></i> Calendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-newspaper"></i> Pages</a>
+                         <!-- //// App DropDown //// -->
+                         <div class="dropdown">
+                            <div class="transparent-bg">
+                                <div class="triangle"></div>
+                            </div>
+
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i> E commerce <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Admin <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#"> Add product</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customers</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customer details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Orders</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Refund</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Customer <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Homepage</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Product details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products filter</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Cart</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Checkout</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Shipping info</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Profile</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Favourite stores</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Wishlist</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order tracking</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Invoice</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown-child-relative">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-phone"></i> CRM <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Analytics
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deals
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deal details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Leads
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lead details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Add contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-clipboard"></i> Project management <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-message"></i> Chat
+                                    </a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-envelope"></i> Email <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-bookmark"></i> Events <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create an event
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Event detail
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-brands fa-trello"></i> Kanban <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kaban
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Creat Boards
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Boards
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-share-nodes"></i> Social <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Profile
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Settings
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-calendar"></i> Calendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-puzzle-piece"></i> Modules</a>
+                          
+                         <!-- //// App DropDown //// -->
+                         <div class="dropdown">
+                            <div class="transparent-bg">
+                                <div class="triangle"></div>
+                            </div>
+
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i> E commerce <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Admin <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#"> Add product</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customers</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customer details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Orders</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Refund</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Customer <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Homepage</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Product details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products filter</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Cart</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Checkout</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Shipping info</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Profile</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Favourite stores</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Wishlist</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order tracking</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Invoice</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown-child-relative">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-phone"></i> CRM <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Analytics
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deals
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deal details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Leads
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lead details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Add contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-clipboard"></i> Project management <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-message"></i> Chat
+                                    </a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-envelope"></i> Email <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-bookmark"></i> Events <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create an event
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Event detail
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-brands fa-trello"></i> Kanban <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kaban
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Creat Boards
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Boards
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-share-nodes"></i> Social <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Profile
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Settings
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-calendar"></i> Calendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa-solid fa-chart-bar"></i> Documentation</a>
+
+                         <!-- //// App DropDown //// -->
+                         <div class="dropdown">
+                            <div class="transparent-bg">
+                                <div class="triangle"></div>
+                            </div>
+
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i> E commerce <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Admin <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#"> Add product</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customers</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Customer details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Orders</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Refund</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Customer <i class="fa-solid fa-angle-right"></i>
+                                                </a>
+                                                <div class="dropdown-grandchild">
+                                                    <ul>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Homepage</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Product details</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Products filter</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Cart</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Checkout</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Shipping info</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Profile</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Favourite stores</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Wishlist</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Order tracking</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="#">Invoice</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown-child-relative">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-phone"></i> CRM <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Analytics
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deals
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Deal details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Leads
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Lead details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Reports details
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Add contact
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-clipboard"></i> Project management <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-message"></i> Chat
+                                    </a>
+                                    
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-envelope"></i> Email <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create new
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project list view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project card view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project board view
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Todo list</i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Project details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-bookmark"></i> Events <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#"> Create an event
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Event detail
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-brands fa-trello"></i> Kanban <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Kaban
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Creat Boards
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Boards
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-share-nodes"></i> Social <i class="fa-solid fa-angle-right"></i>
+                                    </a>
+                                    <div class="dropdown-child">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Profile
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Settings
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-regular fa-calendar"></i> Calendar
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- //// Icons Profile //// -->
+            <div class="navbar-icons">
+                <a class="icon-link icon-bg switcher-relative" href="#">
+                    <i class="fa-regular fa-sun"></i>
+                    <div class="switch-theme-hover">
+                        <span>Switch theme</span>
+                    </div>
+                    <div class="switch-triangle"></div>
+                </a>
+                <a class="icon-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a class="icon-link" href="#"><i class="fa-regular fa-bell"></i></a>
+                <a class="dots-link" href="#">
+                    <img src="Image/dot-pin.png" alt="">
+                </a>
+                <a class="profile-link" href="#">
+                    <img src="Image/froggy-profile.png" alt="">
+                </a>
+            </div>
+        </nav>
+    </header>
+
+</body>
+</html>
